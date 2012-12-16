@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[${1:rigidbody}.AddForce(${2:Vector3}, ${3:ForceMode});${0}
+]]></content>
+	<tabTrigger>riaf</tabTrigger>
+	<scope>source.cs</scope>
+	<description>AddForce(Vector3, ForceMode)</description>
+</snippet>

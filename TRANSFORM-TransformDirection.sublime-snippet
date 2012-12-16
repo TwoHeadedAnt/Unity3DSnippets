@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[${1:transform}.TransformDirection(${2:Vector3})${0}]]></content>
+	<tabTrigger>trtd</tabTrigger>
+	<scope>source.cs</scope>
+	<description>TransformDirection(Vector3). Transforms direction from local space to world space.</description>
+</snippet>

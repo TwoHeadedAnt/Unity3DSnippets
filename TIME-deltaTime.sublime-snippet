@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Time.deltaTime]]></content>
+	<tabTrigger>tidt</tabTrigger>
+	<scope>source.cs</scope>
+	<description>Time.deltaTime</description>
+</snippet>

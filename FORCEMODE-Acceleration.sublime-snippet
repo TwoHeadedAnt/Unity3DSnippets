@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ForceMode.Acceleration${0}
+]]></content>
+	<tabTrigger>fora</tabTrigger>
+	<scope>source.cs</scope>
+	<description>ForceMode.Acceleration</description>
+</snippet>

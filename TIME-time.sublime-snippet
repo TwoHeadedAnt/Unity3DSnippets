@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Time.time]]></content>
+	<tabTrigger>tit</tabTrigger>
+	<scope>source.cs</scope>
+	<description>Time.time</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+public class example : MonoBehaviour {
+	${1}
+	void LateUpdate() {
+		${0}
+	}
+}]]></content>
+	<tabTrigger>lau</tabTrigger>
+	<scope>source.cs</scope>
+	<description>LateUpdate</description>
+</snippet>

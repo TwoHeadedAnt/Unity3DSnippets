@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[Input.GetButton("${1:buttonName}")${0}
+}]]></content>
+	<tabTrigger>inpgb</tabTrigger>
+	<scope>source.cs</scope>
+	<description>Input.GetButton(""). Returns true while the virtual button identified by buttonName is held down.</description>
+</snippet>

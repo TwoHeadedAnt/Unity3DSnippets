@@ -2,13 +2,23 @@
 #### for [Sublime Text 2](http://www.sublimetext.com/2)
 
 ## About
-This sublime Text 2 package adds a number of helpful snippets and completes for working with Unity3D.
+This is a fork of micael bergeron's fork of Jacob Pennock's Sublime Text 2 package, which adds a number of helpful snippets and completes for working with Unity3D.
 
 ## Usage
-Current not so many have really been added just a couple of the GUI functions.
-Typing the tab trigger "gui" will give you quick access to the 6 most used GUI functions.
+A number of useful snippets have been added. Please take a look at the LIST.MD for an alphabetical list of all the additions.
+However, we've barely begun scratching the surface of the Unity Script Reference, so please help out!
 
-Please feel free to fork this package and add your own snippets. I will try to add a few more each day until many of the Unity functions are covered. 
+If you're keen on adding more snippets or commit other changes, go ahead and fork this repository.
+
+### Snippet formatting
+For my own additions, I've used the following formatting:
+#### File name
+FUNCTIONFAMILY-Function.sublime-snippet (e.g., TIME-deltaTime.sublime-snippet).
+#### Snippet structure
+ * the tabTrigger consists of the first three letters of the function family, and then the first letter of each word in the function name.
+The tabTrigger for the above deltaTime example would look like this: <tabTrigger>timdt</tabTrigger>.
+ * the description shows the function and its parameters first, followed by an optional detailed description. 
+Example: <description>Input.GetAxisRaw(""). Returns the value of the virtual axis identified by axisName with no smoothing filtering applied.</description>
 
 ## Install
 
@@ -18,13 +28,8 @@ The easiest way to install this is with [Package Control](http://wbond.net/subli
 
  * If you just went and installed Package Control, you probably need to restart Sublime Text 2 before doing this next bit.
  * Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
- * Select "Package Control: Install Package" (it'll take a few seconds)
- * Select Unity3D Snippets and Completes when the list appears.
+ * Select "Add Repository". Insert the URL of this fork: https://github.com/TwoHeadedAnt/Unity3DSnippets
+ * Bring up the Command Palette again and select "Install Package".
+ * "Unity3D Snippets and Completes" should appear in the list. Install it.
+ * If the snippets do not appear to work, the package might have been put in "ignored_packages". Go to Preferences / Settings - User, remove any relevant entry in "ignored_packages".
 
-Package Control will automatically keep Git up to date with the latest version.
-
-If you have some problems or improvements with it, contact me via GitHub.
-
-
-## Author
-[Jacob Pennock](http://jacobpennock.com)

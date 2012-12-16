@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+public class example : MonoBehaviour {
+	${1}
+	void FixedUpdate() {
+		${0}
+	}
+}]]></content>
+	<tabTrigger>fiu</tabTrigger>
+	<scope>source.cs</scope>
+	<description>FixedUpdate</description>
+</snippet>
